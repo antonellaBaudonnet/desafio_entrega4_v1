@@ -165,6 +165,16 @@ footer {grid-area: footer;}
     body .gridContainer {background-color: rgb(236, 150, 19); } 
     main { width: 100%;}
 }
-
-
-
+.gradient {
+    background-image: linear-gradient(orange,blue);
+}
+.bgColor {
+    background-color: white;
+}
+.transition {
+    width: 200px;
+    transition: width 2s;
+}
+.transition:hover{ 
+    width: 400px;
+}
